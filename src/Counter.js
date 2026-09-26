@@ -8,7 +8,7 @@ class Counter extends React.Component {
     this.handleDecrement = this.handleDecrement.bind(this);
     this.handleIncrement = this.handleIncrement.bind(this);
   }
-
+// i m doing changes
   handleDecrement() {
     this.setState((curState) => {
       return { count: curState.count - 1 };
